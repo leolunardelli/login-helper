@@ -7,6 +7,11 @@
     color: #fff;
 }
 
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
 header {
     min-height: 9vh;
     display: flex;
