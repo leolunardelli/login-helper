@@ -1,10 +1,13 @@
-﻿#  Login Helper
+# Login Helper
 
 <div align="center">
 
 ![Login Helper](https://img.shields.io/badge/Login%20Helper-Auth%20System-4CAF50?style=for-the-badge)
 
-**A modern, responsive authentication system with real-time form validation**
+**A modern, responsive authentication UI with real-time form validation — pure vanilla JavaScript.**
+
+[![Live Demo](https://img.shields.io/badge/demo-live-00C853?style=flat-square)](https://leolunardelli.github.io/login-helper/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -14,72 +17,105 @@
 
 ---
 
-##  Features
+## Objective
 
--  **Fully Responsive** - Works on desktop, tablet, and mobile
--  **Real-time Validation** - Instant feedback as users type
--  **Modern UI** - Clean, professional design with smooth animations
--  **Password Strength** - Visual indicator for password security
--  **Email Validation** - Proper email format checking
--  **Lightweight** - No dependencies, pure vanilla JavaScript
+A front-end authentication form that demonstrates real-time validation, responsive design, and clean UI — built without any frameworks or dependencies.
 
 ---
 
-##  Technologies
+## Demo
+
+🔗 **[Live Demo on GitHub Pages →](https://leolunardelli.github.io/login-helper/)**
+
+<!-- Add a screenshot here -->
+<!-- ![Screenshot](docs/screenshot.png) -->
+
+---
+
+## Tech Stack
 
 | Technology | Purpose |
-|------------|---------|
+|-----------|---------|
 | **HTML5** | Semantic markup & structure |
-| **CSS3** | Styling, Flexbox, animations |
-| **JavaScript** | Form validation logic |
+| **CSS3** | Flexbox, animations, responsive design |
+| **JavaScript** | Form validation logic, DOM manipulation |
 
 ---
 
-##  Quick Start
+## Features
 
-\\\ash
+- **Fully Responsive** — works on desktop, tablet, and mobile
+- **Real-time Validation** — instant feedback as users type
+- **Modern UI** — clean design with smooth CSS transitions
+- **Password Strength** — visual indicator for password security
+- **Email Validation** — proper email format checking
+- **Zero Dependencies** — pure vanilla JavaScript
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Any modern web browser
+
+### How to Run
+
+```bash
 # Clone the repository
 git clone https://github.com/leolunardelli/login-helper.git
+cd login-helper
 
 # Open in browser
-cd login-helper
 open index.html
-\\\
-
-Or simply open \index.html\ in your browser!
+# Or simply double-click index.html
+```
 
 ---
 
-##  Project Structure
+## Project Structure
 
-\\\
+```
 login-helper/
- index.html      # Main HTML file
- style.css       # Styles & responsive design
- script.js       # Validation logic
- README.md       # Documentation
-\\\
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css       # Styles & responsive design
+├── js/
+│   └── script.js       # Validation logic
+├── LICENSE             # MIT License
+└── README.md           # Documentation
+```
 
 ---
 
-##  Validation Rules
+## Validation Rules
 
-- **Email**: Valid email format required
-- **Password**: Minimum 6 characters
-- **Confirm Password**: Must match password field
-- **Required Fields**: All fields must be filled
+| Field | Rule |
+|-------|------|
+| Email | Valid email format required |
+| Password | Minimum 6 characters |
+| Confirm Password | Must match password field |
+| Required Fields | All fields must be filled |
 
 ---
 
-##  Author
+## Roadmap
+
+- [ ] Add "remember me" functionality
+- [ ] Implement password visibility toggle
+- [ ] Add dark mode support
+- [ ] Create registration page
+- [ ] Add unit tests with Jest
+
+---
+
+## Author
 
 **Leonardo Lunardelli**
 
-[![GitHub](https://img.shields.io/badge/GitHub-leolunardelli-181717?style=flat-square&logo=github)](https://github.com/leolunardelli)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-leolunardelli-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/leolunardelli)
+- [GitHub](https://github.com/leolunardelli)
+- [LinkedIn](https://linkedin.com/in/leolunardelli)
 
----
+## License
 
-##  License
-
-MIT License - feel free to use this project!
+[MIT](LICENSE)
